@@ -25,11 +25,6 @@ class Hamster{
 
 }
 
-// console.log(cupid)
-// cupid.getPrice()
-
-
-
 
 class Person{
     constructor(_name){
@@ -90,52 +85,48 @@ class Person{
     }
 }
 
-const carmen = new Person('carmen')
+const Timmy = new Person('Timmy')
 
 //2.
-carmen.age = 5
+Timmy.age = 5
 
 //3.
 for(let i=0; i <=5; i++){
-    carmen.eat()
+    Timmy.eat()
 }
 
 //4.
 for(let i=0; i <=5; i++){
-    carmen.exercise()
+    Timmy.exercise()
 }
 
 //5.
-carmen.age = 9
+Timmy.age = 9
 
 //6.
-const cupid = new Hamster('cupid')
+const Gus = new Hamster('cupid')
 
 //7.
-cupid.owner = carmen.getName()
+Gus.owner = Timmy.getName()
 
 //8.
-carmen.buyHamster(cupid)
+Timmy.buyHamster(Gus)
 
 //9
-carmen.age = 15
+Timmy.age = 15
 
 //10.
 for(let i=0; i <=2; i++){
-    carmen.eat()
+    Timmy.eat()
 }
 
 //11.
 for(let i=0; i <=2; i++){
-    carmen.exercise()
+    Timmy.exercise()
 }
 
+console.log(Timmy)
 
-
-console.log(carmen)
-// carmen.getAge(71)
-// carmen.greet('Carmen')
-// carmen.eat(10)
 
 
 
