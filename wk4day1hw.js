@@ -90,6 +90,7 @@ const Timmy = new Person('Timmy')
 
 //2.
 Timmy.age = 5
+Timmy.ageUP()
 
 //3.
 for(let i=0; i <=5; i++){
@@ -103,6 +104,8 @@ for(let i=0; i <=5; i++){
 
 //5.
 Timmy.age += 9
+Timmy.ageUP()
+
 
 //6.
 const Gus = new Hamster('cupid')
@@ -115,6 +118,8 @@ Timmy.buyHamster(Gus)
 
 //9
 Timmy.age += 15
+Timmy.ageUP()
+
 
 //10.
 for(let i=0; i <=2; i++){
@@ -126,6 +131,7 @@ for(let i=0; i <=2; i++){
     Timmy.exercise()
 }
 
+Timmy.ageUP()
 console.log(Timmy)
 
 
