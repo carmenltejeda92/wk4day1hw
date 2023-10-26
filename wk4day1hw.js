@@ -85,6 +85,7 @@ class Person{
     }
 }
 
+//1.
 const Timmy = new Person('Timmy')
 
 //2.
@@ -101,7 +102,7 @@ for(let i=0; i <=5; i++){
 }
 
 //5.
-Timmy.age = 9
+Timmy.age += 9
 
 //6.
 const Gus = new Hamster('cupid')
@@ -113,7 +114,7 @@ Gus.owner = Timmy.getName()
 Timmy.buyHamster(Gus)
 
 //9
-Timmy.age = 15
+Timmy.age += 15
 
 //10.
 for(let i=0; i <=2; i++){
